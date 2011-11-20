@@ -1,0 +1,72 @@
+=======================================================================
+=======								=======
+=======				dbTools				=======
+=======								=======
+=======================================================================
+
+Personnal stuff, configurations files, usefull scripts, ...
+
+
+
+.:
+
+conf/			-> Configurations files (~/.stuff)
+
+scripts/		-> Scripts (I am used to put them in /usr/local/sbin)
+
+
+
+./conf:
+
+.bashrc			-> Bash aliases
+
+.gitconfig		-> Git username
+
+
+
+./scripts:
+
+clean.sh*		-> "Clean" remove '*~', '#*#', '*.o' recursively
+
+gs.sh*			-> "Grep Safe" is like grep but ignore binary files
+			   and stuff (svn, git, ...)
+
+fgs.sh*			-> "File Grep Safe" open files resulting from gs.sh
+
+ippriv.sh*		-> "IP Private" display your private IP
+
+ippub.sh*		-> "IP Public" display your public IP
+
+newCproject.sh*		-> Create a directory which contain files to start
+			   a C project in db0 style.
+
+replaceall.sh*		-> Replace a word in all files recursively
+
+
+
+=======================================================================
+=======								=======
+=======				Copyright			=======
+=======								=======
+=======================================================================
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2011 db0 <db0company@gmail.com>
+ 
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ 
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
+
+============================== [ Author ] =============================
+
+ Made by	db0
+ Contact	db0company@gmail.com
+ Website	http://db0.fr/
+
